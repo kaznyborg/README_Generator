@@ -25,14 +25,14 @@ ${data.description}
 
 ## Table of Contents
 [Description](#description)<br />
-[Installation] (#installation)<br />
-[Usage] (#usage)<br />
-[License] (#license)<br />
-[Credits] (#credits)<br />
-[Contribute] (#credits)<br />
-[Tests] (#tests)<br />
-[Questions GitHub] (#questionsgit)<br />
-[Questions Email] (#questionsemail)
+[Installation](#installation)<br />
+[Usage](#usage)<br />
+[License](#license)<br />
+[Credits](#credits)<br />
+[Contribute](#credits)<br />
+[Tests](#tests)<br />
+[Questions GitHub](#questionsgit)<br />
+[Questions Email](#questionsemail)
 
 ## Installation
 ${data.installation}
