@@ -39,11 +39,11 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-        .then(data => {
-            const md = generateMarkdown(Response)
-            writeToFile('README.md', md);
-        });
-};
+        .then(response => {
+            const md = generateMarkdown(response)
+            writeToFile(`${response.fileName}.md`, md)
+        })
+}
 
 // Function call to initialize app
 init();
