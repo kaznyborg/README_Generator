@@ -20,6 +20,16 @@ const questions = [
         name: 'description'
     },
     {
+        type: 'input',
+        message: 'How does a user intall this project?',
+        name: 'installation'
+    },
+    {
+        type: 'input',
+        message: 'How does a user use this project?',
+        name: 'usage'
+    },
+    {
         type: 'list',
         message: 'What kind of liscense is your project?',
         name: 'license',
@@ -28,7 +38,33 @@ const questions = [
             'ISC',
             'CC0'
         ]    
-    }
+    },
+    {
+        type: 'input',
+        message: 'Who was involved in the development of this project?',
+        name: 'credits'
+    },
+    {
+        type: 'input',
+        message: 'How can a user contribute to this project?',
+        name: 'contribute'
+    },
+    {
+        type: 'input',
+        message: 'What tests should be used for this project?',
+        name: 'tests'
+    },
+    {
+        type: 'input',
+        message: 'If there are any questions how can you be contacted at your GitHub?',
+        name: 'questionsgit'
+    },
+
+    {
+        type: 'input',
+        message: 'If there are any questions how can you be contacted at your email?',
+        name: 'questionsEmail'
+    },
 ];
 
 // TODO: Create a function to write README file
